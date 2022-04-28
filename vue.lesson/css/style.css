@@ -1,0 +1,51 @@
+body{
+    background-color:rgb(72, 247, 72);
+}
+
+
+body,p {
+    margin: 0;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+h1{
+    color: rgb(238, 151, 38);
+    text-align: center;
+    font-style: italic;
+    text-shadow: 4px 4px 2px#000;
+}
+
+label,input,textarea{
+    display: block;
+    width: 100%;
+}
+
+.btn {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.name-input,.message-input {
+    margin-bottom: 16px;
+}
+
+.warning{
+    font-size: 14px;
+    color: red;
+}
+
+.message-board{
+    border-bottom: 1px solid #000;
+    margin: 16px auto;
+    
+
+}
+.message-board__name{
+    margin-right: 8px;
+    font-weight: bold;
+
+}
